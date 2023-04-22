@@ -8,7 +8,6 @@ import com.intellij.codeInsight.lookup.LookupElementBuilder
 import com.intellij.codeInsight.completion.XmlAttributeInsertHandler
 import com.intellij.lang.html.HTMLLanguage
 import com.intellij.openapi.util.text.StringUtil
-import com.intellij.psi.html.HtmlTag
 import com.intellij.psi.xml.XmlAttribute
 import com.intellij.util.ProcessingContext
 
@@ -25,7 +24,6 @@ class SprigAttributeCompletionProvider : CompletionProvider<CompletionParameters
         }
 
         val attribute = position.parent as? XmlAttribute ?: return
-        val xmlTag = attribute.parent as? HtmlTag ?: return
 
         val partialAttribute = StringUtil.trimEnd(attribute.name, CompletionUtilCore.DUMMY_IDENTIFIER_TRIMMED)
 
