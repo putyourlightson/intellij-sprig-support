@@ -1,18 +1,21 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.bencroker.intellijsprigsupport</id>
-    <name>intellij-sprig-support Template</name>
-    <vendor>bencroker</vendor>
+    <id>com.github.putyourlightson.intellijsprigsupport</id>
+    <name>Sprig Support</name>
+    <vendor url="https://putyourlightson.com/">
+        PutYourLightsOn
+    </vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.xml</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <resource-bundle>messages.SprigBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.bencroker.intellijsprigsupport.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <xml.attributeDescriptorsProvider implementation="com.github.putyourlightson.intellijsprigsupport.AttributesProvider"/>
+        <completion.contributor language="HTML"
+                                implementationClass="com.github.putyourlightson.intellijsprigsupport.SprigCompletionContributor"
+                                id="SprigCompletionContributor"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.bencroker.intellijsprigsupport.listeners.MyFrameStateListener" topic="com.intellij.ide.FrameStateListener"/>
-    </applicationListeners>
 </idea-plugin>

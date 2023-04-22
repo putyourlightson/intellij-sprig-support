@@ -1,7 +1,6 @@
-<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+# Release Notes for Sprig Support Plugin
 
-# intellij-sprig-support Changelog
+## Unreleased
 
-## [Unreleased]
-### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+## 1.0.0 - 2021-04-22
+- Initial release.
