@@ -4,8 +4,9 @@
 
 <!-- Plugin description -->
 Adds autocomplete support for the [Sprig](https://putyourlightson.com/plugins/sprig) plugin for [Craft CMS](https://craftcms.com/) to JetBrains IDEs.
-
 <!-- Plugin description end -->
+
+![](https://plugins.jetbrains.com/files/21571/screenshot_4e0a58a0-a92c-4eaa-ba64-a2adde923890)
 
 ---
 
