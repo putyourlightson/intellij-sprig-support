@@ -1,8 +1,6 @@
 package com.github.putyourlightson.intellijsprigsupport
 
-import com.intellij.psi.html.HtmlTag
-
-class AutoCompleteSuggestions(val htmlTag: HtmlTag, val partialAttribute: String) {
+class AutoCompleteSuggestions {
 
     val attributes: MutableList<AttributeInfo> = mutableListOf()
 

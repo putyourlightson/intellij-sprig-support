@@ -35,7 +35,7 @@ class SprigAttributeDescriptor(
         return !info.hasValue()
     }
 
-    override fun getDeclaration(): PsiElement? = xmlTag
+    override fun getDeclaration(): PsiElement = xmlTag
 
     override fun getName(): String = name
 

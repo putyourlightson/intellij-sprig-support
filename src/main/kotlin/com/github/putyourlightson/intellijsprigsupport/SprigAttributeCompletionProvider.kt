@@ -33,7 +33,7 @@ class SprigAttributeCompletionProvider : CompletionProvider<CompletionParameters
             return
         }
 
-        val suggestions = AutoCompleteSuggestions(xmlTag, partialAttribute)
+        val suggestions = AutoCompleteSuggestions()
 
         suggestions.attributes.forEach {
             val text = it.attribute
