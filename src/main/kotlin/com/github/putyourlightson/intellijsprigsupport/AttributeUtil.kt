@@ -18,6 +18,7 @@ object AttributeUtil {
         "s-indicator",
         "s-listen",
         "s-method",
+        "s-on",
         "s-params",
         "s-preserve",
         "s-prompt",

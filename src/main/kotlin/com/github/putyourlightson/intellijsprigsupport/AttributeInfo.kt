@@ -19,6 +19,7 @@ class AttributeInfo(val attribute: String) {
         "s-indicator" to "The element to put the `htmx-request` class on during the AJAX request.",
         "s-listen" to "Allows you to specify one or more components (as CSS selectors, separated by commas) that when refreshed, should trigger a refresh on the current element.",
         "s-method" to "Forces the request to be of the type provided.",
+        "s-on" to "Allows you to respond to events directly on an element.",
         "s-params" to "Filters the parameters that will be submitted with a request.",
         "s-preserve" to "Ensures that an element remains unchanged even when the component is re-rendered.",
         "s-prompt" to "Shows a prompt before submitting a request.",
