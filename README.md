@@ -1,3 +1,7 @@
+![Build](https://github.com/putyourlightson/intellij-sprig-support/workflows/Build/badge.svg)
+[![Version](https://img.shields.io/jetbrains/plugin/v/21571-sprig-support)](https://plugins.jetbrains.com/plugin/21571-sprig-support)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/21571-sprig-support)](https://plugins.jetbrains.com/plugin/21571-sprig-support)
+
 <p align="center"><img width="150" src="https://raw.githubusercontent.com/putyourlightson/craft-sprig/v1/src/icon.svg"></p>
 
 # Sprig Support Plugin for the IntelliJ Platform
