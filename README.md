@@ -28,4 +28,4 @@ In your IDE, go to <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplac
 
 Created by [PutYourLightsOn](https://putyourlightson.com/).
 
-Based on the work of [Hugo Mesquita](https://twitter.com/hugohomesquita) with [htmx-jetbrains plugin](https://github.com/hugohomesquita/htmx-jetbrains).
+Based on the work of [Hugo Mesquita](https://twitter.com/hugohomesquita) on the [htmx-jetbrains](https://github.com/hugohomesquita/htmx-jetbrains) plugin.
