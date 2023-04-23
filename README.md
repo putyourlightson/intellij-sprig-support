@@ -22,7 +22,7 @@ This plugin requires an IntelliJ-based IDE (PhpStorm, WebStorm, etc.) version 20
 
 ## Installation
 
-In your IDE, go to <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd>, search for the `Sprig Support` plugin and click <kbd>Install</kbd>.
+In your IDE, go to <kbd>Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd>, search for the “Sprig Support” plugin and click <kbd>Install</kbd>.
 
 ---
 
