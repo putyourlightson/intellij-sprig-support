@@ -10,7 +10,7 @@
 Adds autocomplete support for the [Sprig](https://putyourlightson.com/plugins/sprig) plugin for [Craft CMS](https://craftcms.com/) to JetBrains IDEs.
 <!-- Plugin description end -->
 
-![](https://plugins.jetbrains.com/files/21571/screenshot_4e0a58a0-a92c-4eaa-ba64-a2adde923890)
+![Screenshot of the Sprig Support plugin](https://user-images.githubusercontent.com/57572400/233850362-e4ff91d7-4e8d-49c4-8d43-367ce6b0141b.png)
 
 ## License
 
