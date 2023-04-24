@@ -1,8 +1,10 @@
 # Release Notes for Sprig Support Plugin
 
 ## [Unreleased]
+
+## [1.0.1] - 2021-04-24
 ### Added
-- Added the `s-on` attribute.
+- Added autocompletion for the `s-on` attribute.
 
 ## [1.0.0] - 2021-04-22
 - Initial release.
