@@ -7,7 +7,7 @@
 # Sprig Support Plugin for the IntelliJ Platform
 
 <!-- Plugin description -->
-Adds autocomplete support for the [Sprig](https://putyourlightson.com/plugins/sprig) plugin for [Craft CMS](https://craftcms.com/) to JetBrains IDEs.
+Adds autocomplete support to the [Sprig](https://putyourlightson.com/plugins/sprig) plugin for [Craft CMS](https://craftcms.com/) to JetBrains IDEs.
 <!-- Plugin description end -->
 
 ![Screenshot of the Sprig Support plugin](https://user-images.githubusercontent.com/57572400/233850362-e4ff91d7-4e8d-49c4-8d43-367ce6b0141b.png)

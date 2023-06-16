@@ -1,6 +1,8 @@
 # Release Notes for Sprig Support Plugin
 
-## [Unreleased]
+## [1.0.2] - 2021-06-16
+### Changed
+- Improved autocompletion for `s-val`.
 
 ## [1.0.1] - 2021-04-24
 ### Added

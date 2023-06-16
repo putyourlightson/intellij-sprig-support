@@ -34,17 +34,16 @@ class AttributeInfo(val attribute: String) {
         "s-sync" to "Allows you to synchronize AJAX requests between multiple elements.",
         "s-target" to "Specifies the target element to be swapped.",
         "s-trigger" to "Specifies the event that triggers the request.",
-        "s-val" to "Provides a more readable way of populating the `s-vals` attribute.",
+        "s-val:*" to "Adds a parameter to submit with the request.",
         "s-validate" to "Forces an element to validate itself before it submits a request.",
         "s-vals" to "Adds to the parameters that will be submitted with the request.",
     )
 
-    val name: String
+    val name: String = attribute
 
     val typeText: String
 
     init {
-        name = attribute
         typeText = buildTypeText()
     }
 

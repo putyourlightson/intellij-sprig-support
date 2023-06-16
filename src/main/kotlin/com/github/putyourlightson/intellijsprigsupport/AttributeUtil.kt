@@ -33,7 +33,7 @@ object AttributeUtil {
         "s-sync",
         "s-target",
         "s-trigger",
-        "s-val",
+        "s-val:*",
         "s-validate",
         "s-vals",
     )
